@@ -31,25 +31,34 @@
       </div>
     </header>
       <main class="container">
-        <div class="filter">
-          <h3 class="infrastr">Инфраструктура:</h3>
-            <form action="#" method="post">
-              <select name ="infrastructure" multiple>
-                <option selected>Бассейн</option>
-                <option>Парковка</option>
-                <option>Wi-fi</option>
-              </select>
-            </form>
-            <h3>Тип жилья:</h3>
-            <form action="#" method="get">
-              <select name ="house-type" multiple>
-                <option selected>Гостнициа</option>
-                <option selected>Мотель</option>
-                <option selected>Апартаменты</option>
-              </select>
-            </form>
-            <h3>Стоимость в стуки (р):</h3>
-            <form>
+        <section class="filter">
+          <form action="#" method="get">
+            <fieldset>
+              <legend>Инфраструктура:</legend>
+              <ul>
+                <li>
+                  <label> <input type="checkbox">Бассейн</label>
+                </li>
+                <li>
+                  <label> <input type="checkbox">Парковка</label>
+                </li>
+                <li>
+                  <label> <input type="checkbox">Wi-fi</label>
+                </li>
+              </ul>
+              <legend>Тип жилья:</legend>
+              <ul>
+                <li>
+                  <label> <input type="checkbox">Гостиница</label>
+                </li>
+                <li>
+                  <label> <input type="checkbox">Мотель</label>
+                </li>
+                <li>
+                  <label> <input type="checkbox">Апартаменты</label>
+                </li>
+              </ul>
+            <legend>Стоимость в стуки (р):</legend>
               <input type="text" name="start-price" placeholder="От 0">
               <input type="text" name="end-price" placeholder="До 3000">
               <div class="slider">
@@ -57,9 +66,9 @@
                 <button class="slider-control"></button>
               </div>
               <input type="submit" value="Показать">
-            </form>
-          </div>
-            <div class="search-result">
+            </fieldset>
+          </form>
+          <div class="search-result">
               <b>Найдено:3</b>
               <p> Сортировка:</p>
               <a class="price-filter" href="#">По цене</a>
