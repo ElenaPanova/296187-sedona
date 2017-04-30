@@ -7,25 +7,25 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
          <div class="main-logo">
-           <img class="main-logo-picture" src="img/logo.png" width="368" height="204" alt="City of Sedona">
+           <img class="main-logo-picture" src="img/logo.png" width="auto" height="auto" alt="City of Sedona">
          </div>
             <nav class="main-navigation">
-              <ul>
-                <li>
+              <ul clearfix>
+                <li class="name-navigation">
                   <a href="#">Информация</a>
                 </li>
-                <li>
+                <li class="name-navigation">
                   <a href="#">Фото и видео</a>
                 </li>
-                <li>
+                <li class="name-navigation">
                   <a href="#">Прайс-лист</a>
                </li>
-               <li>
+               <li class="name-navigation">
                  <a href="#">Карта штата</a>
                </li>
-               <li>
+               <li class="name-navigation">
                  <a href="#">Гостиницы</a>
                </li>
              </ul>
@@ -34,19 +34,21 @@
     </header>
   <main class="container">
     <div class="hero">
-      <img class="slogan" src="img/slogan.png" width="286" height="164" alt="slogan">
+      <img class="slogan" src="img/slogan.png" width="auto" height="auto" alt="slogan">
     </div>
-    <div class="feautures">
-      <b class="features-name">Настоящий городок</b>
-      №1
-      <p>Седона - не аатркцион для туристов, там течет своя жизнь</p>
+    <div class="feautures clearfix">
+      <div class="features-name">
+        <b>Настоящий городок</b>
+        №1
+        <p>Седона - не аттркцион для туристов, там течет своя жизнь</p>
+      </div>
         <div class="gallery">
           <figure class="gallery-content">
-          <img src="img/Layer1.png" width="286" height="164" alt="Настоящий городок">
+          <img src="img/Layer1.png" width="auto" height="auto" alt="Настоящий городок">
           </figure>
         </div>
     </div>
-      <section class="mini-features">
+      <section class="mini-features clearfix">
         <div class="mini-features-name">
           <b class="features-item">Жилье</b>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
@@ -60,17 +62,19 @@
           <p>Не только китайского, но и местного производства!</p>
         </div>
       </section>
-      <div class="feautures">
-        <b class="features-name">Там есть мост дьявола</b>
-        №2
-        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-          <div class="gallery">
-            <figure class="gallery-content">
-              <img src="img/Layer1.png" width="286" height="164" alt="Настоящий городок">
-            </figure>
-          </div>
+      <div class="feautures clearfix">
+        <div class="features-name-bridge">
+          <b>Там есть мост дьявола</b>
+          №2
+          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+        </div>
+        <div class="gallery">
+          <figure class="gallery-content-bridge">
+            <img src="img/Layer2.png" width="auto" height="auto" alt="Настоящий городок">
+          </figure>
+        </div>
       </div>
-      <section class="features-section">
+      <section class="features-section clearfix">
         <div class="features-catalog">
           <b class="features-catalog-name">Небольшая площадь</b>
           №3
@@ -130,7 +134,7 @@
           </div>
         </main>
       <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           #Visitsedona
           </section>

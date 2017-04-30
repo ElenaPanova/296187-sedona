@@ -19,3 +19,136 @@ body{
   font-weight:bold;
   font-family:PT sans;
 }
+html,
+body {
+  min-width: 1200px;
+  margin: 0 40px;
+  padding: 0;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  background-color: pink;
+}
+.main-logo{
+  width:138px ;
+  height: 70px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main-navigation {
+  float:left;
+  width: 1200px;
+  min-height: 56px;
+  background-color:green;
+}
+.name-navigation{
+  float:left;
+}
+.hero{
+  margin-left: 312px;
+  margin-right: 312px;
+  padding-left: 59px;
+  padding-right: 59px;
+  width:576px;
+  background-color:yellow;
+}
+.feautures{
+width:1200px;
+}
+.mini-features-name{
+  float:left;
+  width:300px;
+  background-color:yellow;
+}
+.features-name{
+  float:left;
+  width:400px;
+  height:256px;
+  background-color: blue;
+}
+
+.gallery-content{
+  float:right;
+  width:800px;
+  height:256px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.features-name-bridge{
+  float:right;
+  width:400px;
+  height:256px;
+  background-color: blue;
+}
+.gallery-content-bridge{
+  float:left;
+  width:800px;
+  height:256px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.features-catalog{
+  float:left;
+  width:300px;
+  background-color:red;
+}
+.infrastructure{
+  float: left;
+  width:241px;
+}
+.house{
+  float: left;
+  width:288px;
+}
+.price-request{
+    float: right;
+  width:328px;
+}
+.item-catalog{
+  width: 1056px;
+  height: 150px;
+  padding-top: 29px;
+  padding-bottom: 30px;
+  background-color: green;
+}
+.image{
+  float: left;
+  width: 135px;
+  height: 90px;
+  background-color: yellow;
+}
+.hotel{
+  float: left;
+  width: 152px;
+  background-color: red;
+}
+.rating{
+  float: right;
+  width: 241px;
+  background-color: orange;
+}
+.footer-contacts {
+  float: left;
+  width: 400px;
+  min-height: 120px;
+  padding-top: 46px;
+}
+.footer-social {
+  float: left;
+  width: 400px;
+  min-height:120 px;
+  padding-top: 36px;
+}
+.footer-copyright {
+  float: right;
+  width: 400px;
+  min-height: 120px;
+  padding-top: 41px;
+}
