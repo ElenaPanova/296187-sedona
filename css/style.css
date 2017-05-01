@@ -74,12 +74,18 @@ width:1200px;
   background-color: blue;
 }
 
-.gallery-content{
+.gallery{
   float:right;
   width:800px;
   height:256px;
   margin-right: 0;
   margin-left: 0;
+}
+.gallery-bridge{
+  float:left;
+  width:800px;
+  height:256px;
+
 }
 .features-name-bridge{
   float:right;
@@ -87,13 +93,7 @@ width:1200px;
   height:256px;
   background-color: blue;
 }
-.gallery-content-bridge{
-  float:left;
-  width:800px;
-  height:256px;
-  margin-right: 0;
-  margin-left: 0;
-}
+
 .features-catalog{
   float:left;
   width:300px;
@@ -113,7 +113,6 @@ width:1200px;
 }
 .item-catalog{
   width: 1056px;
-  height: 150px;
   padding-top: 29px;
   padding-bottom: 30px;
   background-color: green;
