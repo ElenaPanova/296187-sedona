@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -36,7 +37,7 @@
       <section class="filter">
         <form action="#" method="get">
           <fieldset class="clearfix">
-            <div class="infrastructure">
+            <div class="infrastructure-form">
               <legend>Инфраструктура:</legend>
               <ul>
                 <li>
@@ -50,7 +51,7 @@
                 </li>
               </ul>
             </div>
-            <div class="house">
+            <div class="house-form">
               <legend>Тип жилья:</legend>
               <ul>
                 <li>
@@ -64,17 +65,21 @@
                 </li>
               </ul>
             </div>
-            <div class="price-request">
+            <div class="price-request-form">
               <legend>Стоимость в стуки (р):</legend>
-              <input type="text" name="start-price" placeholder="От 0">
-              <input type="text" name="end-price" placeholder="До 3000">
-              <div class="slider">
-                <button class="slider-control"></button>
-                <button class="slider-control"></button>
+              <div class="price-control">
+                <input type="text" name="start-price" placeholder="От 0">
+                <input type="text" name="end-price" placeholder="До 3000">
               </div>
-              <input type="submit" value="Показать">
+              <div class="slider">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <button class="slider-control slider-control-min"></button>
+                <button class="slider-control slider-control-max"></button>
+              </div>
+              <input class="btn-transparent" type="submit" value="Показать">
             </div>
-
           </fieldset>
         </form>
         <div class="search-result">
@@ -87,7 +92,7 @@
         <div class="items-and-price">
           <div class="item-catalog clearfix">
             <figure class="image">
-              <img src="img/Amara resort.png" alt="Amara resort & spa" width="auto" height="auto">
+              <img src="img/amara-resort.png" alt="Amara resort & spa" width="auto" height="auto">
             </figure>
             <div class="hotel">
               <h4>Amara resort &#38; spa</h4>
@@ -102,7 +107,7 @@
           </div>
           <div class="item-catalog clearfix">
             <div class="image">
-              <img src="img/Desert.png" alt="Desert quail inn" width="auto" height="auto">
+              <img src="img/desert.png" alt="Desert quail inn" width="auto" height="auto">
             </div>
             <div class="hotel">
               <h4>Desert quail inn &#38; spa</h4>
@@ -117,7 +122,7 @@
           </div>
           <div class="item-catalog clearfix">
             <div class="image">
-              <img src="img/Villas.png" alt="Villas at poco diablo" width="auto" height="auto">
+              <img src="img/villas.png" alt="Villas at poco diablo" width="auto" height="auto">
             </div>
             <div class="hotel">
               <h4>Villas at poco diablo</h4>

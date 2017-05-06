@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -17,14 +18,14 @@
                 <li>
                   <a href="#">Информация</a>
                 </li>
-                <li class="name-navigation-photo">
+                <li>
                   <a href="#">Фото и видео</a>
                 </li>
-               <li class="name-navigation-map">
-                 <a href="#">Карта штата</a>
+               <li>
+                 <a class="map-nav" href="#">Карта штата</a>
                </li>
                <li>
-                 <a href="#">Гостиницы</a>
+                 <a class="hotel-nav" href="#">Гостиницы</a>
                </li>
              </ul>
            </nav>
@@ -35,61 +36,61 @@
       <img class="slogan" src="img/slogan.png" width="auto" height="auto" alt="slogan">
     </div>
     <div clas="about-Sedona">
-      <p class="start-Sedona"> Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
+      <p class="start-Sedona"> Седона &mdash; небольшой городок в Аризоне,<br> заслуживающий большего!</p>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
     </div>
     <div class="feautures clearfix">
       <div class="features-name">
         <b>Настоящий городок</b><br>
-        №1
+      &ndash; №1 &ndash;
         <p>Седона - не аттркцион для туристов, там течет своя жизнь</p>
       </div>
         <div class="gallery">
           <figure class="gallery-content">
-          <img src="img/Layer1.png" width="auto" height="auto" alt="Настоящий городок">
+          <img src="img/layer1.png" width="auto" height="auto" alt="Настоящий городок">
           </figure>
         </div>
     </div>
       <section class="mini-features clearfix">
         <div class="mini-features-name">
-          <b class="features-item">Жилье</b>
+          <b class="features-item-house">Жилье</b>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
         <div class="mini-features-name">
-          <b class="features-item">Еда</b>
+          <b class="features-item-food">Еда</b>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </div>
         <div class="mini-features-name">
-          <b class="features-item">Сувениры</b>
+          <b class="features-item-souvenirs">Сувениры</b>
           <p>Не только китайского, но и местного производства!</p>
         </div>
       </section>
       <div class="feautures clearfix">
         <div class="gallery-bridge">
           <figure class="gallery-content-bridge">
-            <img src="img/Layer2.png" width="auto" height="auto" alt="Настоящий городок">
+            <img src="img/layer2.png" width="auto" height="auto" alt="Настоящий городок">
           </figure>
         </div>
         <div class="features-name-bridge">
           <b>Там есть мост дьявола</b><br>
-          №2
+          &ndash; №2 &ndash;
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>
       </div>
       <section class="features-section clearfix">
         <div class="features-catalog">
-          <b class="features-catalog-name">Небольшая площадь</b>
-          №3
+          <b class="features-catalog-name">Небольшая площадь</b><br>
+          &ndash; №3 &ndash;
           <p>Все достопримечательности находятся очень близко</p>
         </div>
           <div class="features-catalog">
-            <b class="features-catalog-name">Красивая дорога</b>
-            №4
-            <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
+            <b class="features-catalog-name">Красивая дорога</b><br>
+            &ndash; №4 &ndash;
+            <p>Ехать в седону из лас-вегаса совсем не скучно!</p><br>
           </div>
           <div class="features-catalog">
-            <b class="features-catalog-name">Мало туристов</b>
-            №5
+            <b class="features-catalog-name">Мало туристов</b><br>
+            &ndash; №5 &ndash;
             <p>Большинство едет в Гранд-Каньон и толпится там</p>
           </div>
       </section>
@@ -97,17 +98,17 @@
             <h2 class="interested">Заинтересовались?</h2>
             <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
             <b>Поиск гостиницы в Седоне</b>
-            <form action="#" method="post">
-              <section class="data">
-                <div class="date_check-in">
+            <form class="date-request" action="#" method="post">
+              <section class="date">
+                <div class="date-check-in">
                   <label>
-                    Дата заезда:<input type="text" name="date_check-in">
+                    Дата заезда:<input class="icon-cal" type="text" name="date-check-in">
                   </label>
                   <a href="#" class="calendar-btn"></a>
                 </div>
-                <div class="date_check-out">
+                <div class="date-check-out">
                   <label>
-                  Дата выезда:<input type="text" name="date_check-out">
+                  Дата выезда:<input class="icon-cal" type="text" name="date-check-out">
                   </label>
                   <a href="#" class="calendar-btn"></a>
                 </div>
@@ -128,10 +129,10 @@
                   <button class="btn-child" type="button">+</button>
                 </div>
               </section>
-              <input type="submit" value="Найти">
+              <input class="btn" type="submit" value="Найти">
             </form>
             <div class="map">
-              <img src="img/map.png" width="368" height="204" alt="map">
+              <img src="img/map.png" width="1200" height="593" alt="map">
             </div>
           </div>
         </main>
@@ -146,7 +147,8 @@
             <a class="social-btn social-btn-youtube" href="#">Ютуб</a>
          </section>
          <section class="footer-copyright">
-         <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+           <span>Website by</span>
+         <a class="btn-html" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
        </section>
      </div>
    </footer>
