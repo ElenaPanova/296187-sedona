@@ -62,6 +62,12 @@ padding-top: 20px;
   line-height: 16px;
   vertical-align: top;
 }
+.map-nav-name{
+  padding-left: 135px;
+}
+.hotel-nav-name{
+  padding-left: 18px;
+}
 .photo-video{
   padding-left: 15px;
 }
