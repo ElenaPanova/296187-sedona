@@ -4,10 +4,7 @@ body{
   font-weight:regular;
   font-family:"PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
-<<<<<<< HEAD
   box-shadow:
-=======
->>>>>>> origin/master
 }
 .interested{
   font-size:30px;
@@ -50,15 +47,9 @@ body {
   color: rgba(0,0,0,0.3);
 }
 
-
 .main-navigation ul {
-<<<<<<< HEAD
 padding-left: 72px;
 padding-top: 20px;
-=======
-padding-left: 73px;
-padding-top: 16px;
->>>>>>> origin/master
 
   list-style: none;
   font-size: 0;
@@ -71,7 +62,6 @@ padding-top: 16px;
   line-height: 16px;
   vertical-align: top;
 }
-<<<<<<< HEAD
 .photo-video{
   padding-left: 15px;
 }
@@ -84,19 +74,11 @@ padding-top: 16px;
     margin: 0 auto;
     box-shadow: -5px 0 10px 0 rgba(0,0,0,.2),
                  5px 0 10px 0 rgba(0,0,0,.2);
-=======
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-
->>>>>>> origin/master
 }
 .start-Sedona{
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
-<<<<<<< HEAD
   margin-top: 62px;
 margin-bottom: 32px;
   text-align: center;
@@ -104,9 +86,6 @@ margin-bottom: 32px;
 .reasons-Sedona{
   text-align: center;
   margin-bottom: 55px;
-=======
-  margin: 62px 378px;
->>>>>>> origin/master
 }
 .main-header{
   position: relative;
@@ -116,15 +95,10 @@ margin-bottom: 32px;
   text-align: right;
 
 }
-<<<<<<< HEAD
 
 .map-nav{
   text-align: right;
 margin: 0;
-=======
-.map-nav{
-  margin-left: 270px;
->>>>>>> origin/master
 }
 .main-logo{
   position: absolute;
@@ -143,20 +117,13 @@ margin: 0;
   margin-left: 312px;
   padding-left: 59px;
   padding-top: 75px;
-<<<<<<< HEAD
   padding-bottom: 20px;
-=======
->>>>>>> origin/master
 }
 
   .hero{
 
     width:1200px;
-<<<<<<< HEAD
     background: url("../img/background.jpg") no-repeat 50% 20%;
-=======
-    background: url("../img/background.jpg") no-repeat center top;
->>>>>>> origin/master
   }
 
   .hero::after {
@@ -166,45 +133,31 @@ display: block;
 width: 1200px;
 height: 57px;
 vertical-align: bottom;
-<<<<<<< HEAD
 }
 
 
-=======
-
-}
->>>>>>> origin/master
 .feautures{
 width:1200px;
 }
 .mini-features-name{
   float:left;
   width:400px;
-<<<<<<< HEAD
   padding-bottom: 80px;
   background:rgb(255,255,255);
   text-align: center;
-=======
-  height:275px;
-  background:rgb(255,255,255);
->>>>>>> origin/master
 }
 .mini-features-name b{
   font-size: 21px;
   line-height: 24px;
   font-weight: bold;
-<<<<<<< HEAD
   display: block;
   vertical-align: top;
   margin-bottom: 25px;
-=======
->>>>>>> origin/master
 }
 
 .features-item-house::before{
   content: "";
   background-image: url("../img/house.png");
-<<<<<<< HEAD
   background-repeat:no-repeat;
   background-position:center;
   display: block;
@@ -228,27 +181,10 @@ width:1200px;
   margin-top:56px;
   margin-bottom: 26px;
     margin-left: 163px;
-=======
-  display: block;
-  width: 75px;
-  height: 72px;
-  vertical-align: center ;
-  margin-top: ;
-}
-.features-item-food::before{
-  content: "";
-  background-image: url("../img/food.png");
-  display: block;
-  width: 74px;
-  height: 71px;
-  vertical-align: center ;
-  margin-top: ;
->>>>>>> origin/master
 }
 .features-item-souvenirs::before{
   content: "";
   background-image: url("../img/souvenirs.png");
-<<<<<<< HEAD
   background-repeat:no-repeat;
   background-position:center;
   display: block;
@@ -275,13 +211,6 @@ margin-right:50px;
 .item-souvenirs{
   margin-left:55px;
 margin-right:55px;
-=======
-  display: block;
-  width: 64px;
-  height: 76px;
-  vertical-align: center ;
-  margin-top: ;
->>>>>>> origin/master
 }
 .features-name{
   float:left;
@@ -296,7 +225,6 @@ margin-right:55px;
 .features-name b,
 .features-name-bridge b{
   display: block;
-<<<<<<< HEAD
   line-height: 22px;
   font-size:21px;
   font-weight: bold;
@@ -314,12 +242,6 @@ margin-right:55px;
   padding-left: 40px;
     padding-right: 40px;
     line-height: 20px;
-=======
-  line-height: 23px;
-  font-size:21px;
-  font-weight: bold;
-  margin: 49px;
->>>>>>> origin/master
 }
 .gallery{
   float:right;
@@ -343,10 +265,7 @@ margin-right:55px;
   float:right;
   width:400px;
   height:256px;
-<<<<<<< HEAD
   margin: 0;
-=======
->>>>>>> origin/master
   color:rgb(255,255,255);
   background: rgb(129,179,210);
   text-align: center;
@@ -364,7 +283,6 @@ margin-right:55px;
   font-weight: bold;
   font-size: 21px;
   line-height: 23px;
-<<<<<<< HEAD
 margin-top: 45px;
     margin-bottom: 10px;
     display: block;
@@ -390,15 +308,6 @@ margin-right: 65px;
   position: relative;
   padding-top: 50px;
 
-=======
-}
-
-
-
-
-.info{
-  position: relative;
->>>>>>> origin/master
 }
 .interested{
     font-size:30px;
@@ -406,12 +315,9 @@ margin-right: 65px;
     color:rgb(0,0,0);
     font-weight: bold;
     font-family:PT Sans;
-<<<<<<< HEAD
     margin:0;
       margin-bottom: 23px;
       text-align: center;
-=======
->>>>>>> origin/master
 }
 .info b{
 display: block;
@@ -419,10 +325,7 @@ width:567px;
 height:86px;
 margin: 0 316px;
 padding-top: 30px;
-<<<<<<< HEAD
 margin-top: 50px;
-=======
->>>>>>> origin/master
 box-sizing: border-box;
 background: rgb(118,99,87);
 color: rgb(255, 255, 255);
@@ -430,7 +333,6 @@ text-align: center;
 font-size: 21px;
 line-height: 26px;
 font-weight: bold;
-<<<<<<< HEAD
 text-align: center;
 }
 .info p{
@@ -438,11 +340,6 @@ text-align: center;
   text-align: center;
 }
 
-=======
-
-box-sizing: border-box;
-}
->>>>>>> origin/master
 .date label,
 .people-number label{
 color: rgb(0,0,0);
@@ -450,10 +347,7 @@ font-size: 14px;
 line-height: 17px;
 font-weight: bold;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 .date-request{
   position: absolute;
   width: 567px;
@@ -463,28 +357,18 @@ font-weight: bold;
   position: absolute;
   left: 316px;
   box-sizing: border-box;
-<<<<<<< HEAD
   box-shadow: 0 7px 15px 0 rgba(0,0,0,.15);
-=======
->>>>>>> origin/master
 }
 
 .date-check-in input[type="text"],
 .date-check-out input[type="text"] {
   position: relative;
   width:346px;
-<<<<<<< HEAD
   margin: 0;
   margin-bottom: 30px;
   margin-left: 21px;
   padding: 10px 15px;
   padding-right: 30px;
-=======
- margin: 0;
- margin-bottom: 10px;
- padding: 10px 15px;
- padding-right: 30px;
->>>>>>> origin/master
  background: rgb(242,242,242);
 box-sizing: border-box;
   font-size: 14px;
@@ -494,7 +378,6 @@ box-sizing: border-box;
   text-transform: uppercase;
   border:none;
 }
-<<<<<<< HEAD
 .date-check-in input[type="text"]:hover,
 .date-check-out input[type="text"]:hover{
   background: rgb(235,235,235);
@@ -536,26 +419,6 @@ box-sizing: border-box;
 .adults input[type="text"]{
   width:45px;
  height:36px;
-=======
-.calendar-btn{
-  position: absolute;
-  background-image: url("../img/cal.png");
-  right:315px;
-  top:6px;
-}
-.date-request .btn{
-  background: rgb(129,179,210);
-width: 458px;
-height:60px;
-padding-right:195px;
-padding-left:195px;
-border:none;
-}
-.btn-adults input[type="text"],
-.btn-child input[type="text"] {
-  width:117px;
- height:38px;
->>>>>>> origin/master
  background: rgb(242,242,242);
 box-sizing: border-box;
   font-size: 14px;
@@ -565,7 +428,6 @@ box-sizing: border-box;
   text-transform: uppercase;
   border:none;
 }
-<<<<<<< HEAD
 .adults{
   float:left;
 }
@@ -656,24 +518,6 @@ text-transform: uppercase;
 .date-request .btn:active{
   background: rgb(84,150,189);
 }
-=======
-.btn-adults{
-}
-
-
-
-
-.filter{
-  background-image: url("../img/filter-background.png");
-height:218px;
-}
-.infrastructure-form{
-  float: left;
-  width:244px;
-  color:rgb(255,255,255);
-
-}
->>>>>>> origin/master
 .house-form{
   float: left;
   width:288px;
@@ -681,7 +525,6 @@ height:218px;
 }
 .price-request-form{
     float: right;
-<<<<<<< HEAD
   padding-right: 72px;
   color:rgb(255,255,255);
 }
@@ -791,83 +634,18 @@ transform: translate(-50%, -50%);
   height: 2px;
 
   background: #ffffff;
-=======
-  width:328px;
-  color:rgb(255,255,255);
-}
-.infrastructure-form legend,
-.house-form legend,{
-  font-weight: bold;
-}
-.price-request-form legend{
-  margin-bottom: 9px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-}
-.price-control{
-  height: 36px;
-  margin-bottom: 20px;
-  border: 2px solid rgb(255,255,255);
-  border-radius: 2px;
-  font-size: 0;
-  position: relative;
-}
-.price-control input{
-  display:inline-block;
-  vertical-align: top;
-  font-size: 14px;
-  line-height:26px;
-  vertical-align: top;
-  cursor: pointer;
-  width:50px;
-  padding-left: 65px;
-  margin:0;
-  border: none;
-  outline:none;
-  background: none;
-  color:rgb(255,255,255);
-}
-.price-control::after{
-  content: "";
-  position: absolute;
-  top:50%;
-  left:50%;
-  width: 2px;
-  height:22px;
-  background: rgb(255,255,255);
-  transform: translate(-50%, -50%);
-}
-.slider{
-  position: relative;
-  margin-bottom: 32px;
-}
-.scale {
-  height: 2px;
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.bar {
-  width: 80%;
-  height: 2px;
-  background: rgb(255,255,255);
->>>>>>> origin/master
 }
 .slider-control{
   position: absolute;
   top: -9px;
   width: 4px;
   height: 4px;
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
-<<<<<<< HEAD
 }
 .slider-control:hover {
   background: #1c4f80;
@@ -883,37 +661,17 @@ transform: translate(-50%, -50%);
   display: block;
   margin-left: 86px;
   padding: 6px 30px;
-=======
-  }
-  .slider-control-min{
-    left:0;
-  }
-  .slider-control-max{
-    left:80%;
-  }
-  .slider-control:hover{
-    background: #1c4f80;
-  }
-  .btn-transparent {
-  display: block;
-  margin: 0 auto;
-  padding: 6px 35px;
->>>>>>> origin/master
 
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
 }
-<<<<<<< HEAD
 .btn-transparent:hover {
   color: #000000;
 
@@ -1012,12 +770,6 @@ border-bottom: 10px solid rgb(0,0,0);
 }
 .high:active::after{
 border-bottom: 10px solid rgb(129,179,210);
-=======
-
-.btn-transparent:hover {
-  color: #000000;
-  background: #ffffff;
->>>>>>> origin/master
 }
 .item-catalog{
   width: 1200px;
@@ -1173,14 +925,6 @@ box-sizing: border-box;
   min-height: 120px;
   bottom:0px;
 }
-.footer{
-  position: absolute;
-  background: rgba(255,255,255,0.9);
-  font-size: 21px;
-  line-height: 24px;
-  font-weight: bold;
-  text-align: center;
-}
 .footer-contacts {
   float: left;
   width: 400px;
@@ -1190,21 +934,14 @@ box-sizing: border-box;
   line-height: 24px;
   font-weight: bold;
   text-align: center;
-<<<<<<< HEAD
   box-sizing: border-box;
-=======
->>>>>>> origin/master
 }
 .footer-social {
   float: left;
   width: 400px;
   min-height:120px;
   padding-top: 36px;
-<<<<<<< HEAD
 box-sizing: border-box;
-=======
-
->>>>>>> origin/master
   text-align: center;
 }
 
@@ -1216,10 +953,7 @@ box-sizing: border-box;
   vertical-align: top;
   text-decoration: none;
   background-color: rgb(129,179,210);
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 }
 .social-btn-twitter{
   background-image: url("../img/tw.png");
@@ -1235,12 +969,9 @@ box-sizing: border-box;
   background-image: url("../img/youtube.png");
   background-repeat:no-repeat;
   background-position:center;
-<<<<<<< HEAD
 }
 .social-btn:hover{
   background-color: rgb(102,158,192);
-=======
->>>>>>> origin/master
 }
 .social-btn:active{
   background-color: rgb(84,150,189);
@@ -1250,7 +981,6 @@ box-sizing: border-box;
   float: right;
   width: 400px;
   min-height: 120px;
-<<<<<<< HEAD
   padding-top: 40px;
   padding-right: 7px;
   text-align: center;
@@ -1262,19 +992,12 @@ box-sizing: border-box;
         display: inline-block;
         vertical-align: middle;
       }
-=======
-  padding-top: 35px;
-  text-align: center;
-
-}
->>>>>>> origin/master
 .btn-html{
   display: inline-block;
   width: 113px;
   height: 39px;
   display: inline-block;
   font-size: 0;
-<<<<<<< HEAD
   vertical-align: middle;
   text-decoration: top;
   background-image: url("../img/html-academy.png");
@@ -1284,9 +1007,4 @@ box-sizing: border-box;
 }
 .btn-html:active{
   background-image: url("../img/html-active.png");
-=======
-  vertical-align: center;
-  text-decoration: top;
-  background-image: url("../img/html-academy.png");
->>>>>>> origin/master
 }
