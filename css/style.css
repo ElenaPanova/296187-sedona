@@ -434,12 +434,31 @@ box-sizing: border-box;
 .child{
   float:right;
 }
+.adults-field{
+    margin-left: 113px;
+      margin-bottom: 53px;
+      margin-top: -26px;
+}
+.child-field{
+    margin-left: 113px;
+      margin-bottom: 53px;
+      margin-top: -26px;
+}
 .people{
   background: rgb(242,242,242);
   width:113px;
-  margin:0;
-}
 
+}
+.adults-title{
+  display: inline-block;
+  padding-top: 16px;
+
+}
+.child-title{
+  display: inline-block;
+  padding-top: 15px;
+      margin-left: 47px;
+}
 .btn-children,
 .btn-people{
   border:0;
