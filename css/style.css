@@ -506,11 +506,17 @@ fieldset{
   float: left;
   color:rgb(255,255,255);
   padding-left: 72px;
-  padding-right: 115px;
+  padding-right: 117px;
 }
 .infrastructure-form li,
 .house-form li{
   padding-bottom: 23px;
+}
+.infrastructure-form span,
+.house-form span{
+  display: inline-block;
+  padding-left: 13px;
+  padding-top: 3px;
 }
 .price-control input[type="text"]::placeholder{
   color:rgb(255,255,255);
