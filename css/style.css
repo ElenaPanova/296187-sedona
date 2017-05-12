@@ -498,6 +498,11 @@ box-sizing: border-box;
 .btn-plus:active{
   color:rgb(129,179,210);
 }
+.people-number input[type="text"]::placeholder,
+.date input[type="text"]::placeholder{
+  color:rgb(0,0,0);
+  text-transform: uppercase;
+}
 .filter{
   background-image: url("../img/filter-background.png");
   background-position: 50% 15%;
