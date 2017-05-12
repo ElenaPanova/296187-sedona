@@ -554,8 +554,26 @@ width: 1200px;
   color: rgb(129,179,210);
 }
 
-.people-number input[type="text"]::placeholder,
-.date input[type="text"]::placeholder {
+.people-number input[type="text"]::-webkit-input-placeholder,
+.date input[type="text"]::-webkit-input-placeholder {
+  color: rgb(0,0,0);
+  text-transform: uppercase;
+}
+
+.people-number input[type="text"]::-moz-placeholder,
+.date input[type="text"]::-moz-placeholder {
+  color: rgb(0,0,0);
+  text-transform: uppercase;
+}
+
+.people-number input[type="text"]:-ms-input-placeholder,
+.date input[type="text"]:-ms-input-placeholder {
+  color: rgb(0,0,0);
+  text-transform: uppercase;
+}
+
+.people-number input[type="text"]:-moz-placeholder,
+.date input[type="text"]:-moz-placeholder {
   color: rgb(0,0,0);
   text-transform: uppercase;
 }
@@ -594,7 +612,22 @@ fieldset {
   padding-top: 3px;
 }
 
-.price-control input[type="text"]::placeholder {
+.price-control input[type="text"]::-webkit-input-placeholder {
+  color :rgb(255,255,255);
+  text-transform: uppercase;
+}
+
+.price-control input[type="text"]::-moz-placeholder {
+  color :rgb(255,255,255);
+  text-transform: uppercase;
+}
+
+.price-control input[type="text"]:-ms-input-placeholder {
+  color :rgb(255,255,255);
+  text-transform: uppercase;
+}
+
+.price-control input[type="text"]:-moz-placeholder {
   color :rgb(255,255,255);
   text-transform: uppercase;
 }
