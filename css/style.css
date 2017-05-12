@@ -440,6 +440,7 @@ box-sizing: border-box;
   text-transform: uppercase;
   text-align: center;
   border:none;
+  padding-left: 10px;
 }
 .adults{
   float:left;
@@ -450,12 +451,12 @@ box-sizing: border-box;
 .adults-field{
     margin-left: 113px;
       margin-bottom: 53px;
-      margin-top: -26px;
+      margin-top: -29px;
 }
 .child-field{
     margin-left: 113px;
       margin-bottom: 53px;
-      margin-top: -26px;
+      margin-top: -29px;
 }
 .people{
   background: rgb(242,242,242);
@@ -478,11 +479,13 @@ box-sizing: border-box;
   width:25px;
   height:25px;
   background:none;
+  padding-top: 5px;
 }
 .btn-minus{
  font-size:21px;
   font-weight:bold;
   color:rgb(169,169,169);
+  padding-left: 14px;
 }
 .btn-minus:hover{
   color:rgb(0,0,0);
@@ -494,6 +497,7 @@ box-sizing: border-box;
   font-size:21px;
    font-weight:bold;
   color:rgb(169,169,169);
+  padding-left: 12px;
 }
 .btn-plus:hover{
   color:rgb(0,0,0);
