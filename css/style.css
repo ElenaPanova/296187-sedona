@@ -35,7 +35,7 @@ body {
   clear: both;
 }
 .main-navigation a {
-  display: block;
+  display: inline-block;
   font-weight: bold;
   color: rgb(0,0,0);
   text-decoration: none;
@@ -63,13 +63,16 @@ padding-top: 20px;
 }
 .map-nav-name{
   padding-left: 135px;
+  text-align: right;
 }
 .main-navigation .active {
         color: rgb(118,99,87);
       }
 .hotel-nav-name{
   padding-left: 18px;
+  text-align: right;
 }
+
 .photo-video{
   padding-left: 15px;
 }
