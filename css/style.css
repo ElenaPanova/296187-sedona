@@ -676,8 +676,8 @@ fieldset {
   background-repeat:no-repeat;
   background-position:center;
 }
-.infrastructure-form legend,
-.house-form legend {
+.infrastructure-form h2,
+.house-form h2 {
   font-size: 16px;
   line-height: 21px;
   font-weight: bold;
@@ -687,7 +687,7 @@ fieldset {
   text-align: left;
 }
 
-.price-request-form legend {
+.price-request-form h2 {
   font-size: 16px;
   line-height: 21px;
   font-weight: bold;
